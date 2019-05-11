@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 100%;
+  background-image: linear-gradient(rgba (0, 0, 0, 0.6)),
+    url(./images/background-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.header img {
+  width: 170px;
+  float: left;
+}
+
+.login-btn {
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  float: right;
+}
+
+.header h1 {
+  padding-top: 200px;
+  padding-bottom: 0;
+  font-size: 55px;
+}
